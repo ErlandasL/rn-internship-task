@@ -8,6 +8,6 @@ Install dependencies: npm install
 
 Start expo server: expo start
 
-Install Expo app on mobile and scan QR code on mobile
+Install Expo app on mobile phone and scan QR code on mobile phone.
 
 
