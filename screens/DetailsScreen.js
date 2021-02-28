@@ -2,9 +2,6 @@ import React from "react";
 import { View, Text, StyleSheet, Image, ScrollView } from "react-native";
 
 export default class DetailsScreen extends React.Component {
-  static navigationOptions = {
-    title: "Details",
-  };
   render() {
     const { navigation } = this.props;
     const name = navigation.getParam("name");
