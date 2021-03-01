@@ -12,6 +12,6 @@ Install expo: npm install -g expo expo-cli
 
 Start expo server: expo start
 
-Install Expo app on mobile phone and scan QR code on mobile phone.
+Install Expo app on mobile phone and scan QR code on mobile phone and click to open it.
 
 
