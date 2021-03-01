@@ -7,8 +7,8 @@ import {
   FlatList,
   Platform,
   TouchableNativeFeedback,
-  ScrollView,
   TouchableOpacity,
+  SafeAreaView,
 } from "react-native";
 import Slider from "@react-native-community/slider";
 import Colors from "../constants/Colors";
@@ -31,7 +31,7 @@ export default class KittensOverviewScreen extends React.Component {
     }
     return (
       <View style={styles.container}>
-        <ScrollView>
+        <SafeAreaView style={{ flex: 1 }}>
           <View style={styles.slider}>
             <Slider
               value={this.state.value}
@@ -52,6 +52,7 @@ export default class KittensOverviewScreen extends React.Component {
           </View>
           <FlatList
             data={selectedKittens}
+            keyExtractor={(item, index) => index.toString()}
             renderItem={({ item }) => (
               <TouchableCmp
                 onPress={() =>
@@ -73,7 +74,7 @@ export default class KittensOverviewScreen extends React.Component {
               </TouchableCmp>
             )}
           />
-        </ScrollView>
+        </SafeAreaView>
       </View>
     );
   }
