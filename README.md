@@ -12,6 +12,8 @@ Install expo: `npm install -g expo expo-cli`
 
 Install in expo react-navigation: `expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view`
 
+Install in npm react-navigation: `npm install react-navigation`
+
 Start expo server: `expo start`
 
 Install Expo app on mobile phone and scan QR code on mobile phone and click to open it.
