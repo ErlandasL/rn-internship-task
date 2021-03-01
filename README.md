@@ -6,6 +6,8 @@ Clone repository: git clone https://github.com/ErlandasL/rn-internship-task.git
 
 Install dependencies: npm install
 
+npm install -g expo expo-cli
+
 Start expo server: expo start
 
 Install Expo app on mobile phone and scan QR code on mobile phone.
